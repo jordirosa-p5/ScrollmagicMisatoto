@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+#contingut {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3000px; 
+    position: relative;
+    overflow: hidden;
+    background-color: #efdbcb;
+}
+
+.nuvol {
+    position: absolute;
+    height: 200px;
+}
+
+#entreCelITerra {
+    height: 150px;
+    background-image: linear-gradient(to bottom, #efdbcb 0%, #32645a 100%);
+}
+
+#terra {
+    height: 100vh;
+    background-color: #32645a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#totesImg {
+    height: 100%; 
+    position: absolute;
+    background-color: #32645a;  
+    transform-style: preserve-3d;    
+}
+
+#mapa {
+    height: 100%; 
+}
+
+#drac {
+    height: 15%;
+    width: 15%;
+    position: absolute;
+    top: 47%;
+    left: 42%;
+}
+
+#capDrac {
+    height: 20%;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+}
+
+#cosDrac {
+    height: 20%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+#textDrac {
+    position: absolute;
+    top: 4%;
+    left: 19%;
+    width: 20%;
+    font-size: 3px;
+    color: beige;
+}
+
+#venedores {
+    height: 5%;
+    position: absolute;
+    top: 32%;
+    left: 68%;
+}
+
+#transTerraBlau {
+    height: 150px;
+    background-image: linear-gradient(to bottom, #32645a 0%, #96d5f9 100%);
+
+}
+
+    #blau {
+    background-color: #96d5f9;
+    height: 100vh;
+}
